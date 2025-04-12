@@ -1,0 +1,28 @@
+# Ignore Python cache
+__pycache__/
+*.py[cod]
+
+# Ignore virtual environments
+.venv/
+env/
+venv/
+
+# Ignore Streamlit secrets
+.streamlit/secrets.toml
+
+# Ignore data files
+translated_tweets.txt
+/mnt/data/
+/data/
+/datasets/
+/private_documents/
+*.pdf
+*.docx
+*.txt
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore Jupyter notebooks if any
+*.ipynb
